@@ -22,13 +22,13 @@ public class Account {
 		Acct = new Account();
 
 		// Prints out number of accounts created by accessing method getNumAccounts
-		System.out.println("Accounts Created: " + getNumAccounts());
+		getNumAccounts();
 
 	}
 
 	// Method to return number of accounts
-	private static int getNumAccounts() {
-		return numAccounts;
+	private static void getNumAccounts() {
+		System.out.println("Accounts Created: " + numAccounts);
 	}
 
 }

@@ -15,7 +15,7 @@ public class Card {
 		for (int i = 0; i < 1; i++) {
 			cards[i] += i;
 
-			// Create random constructor
+			// Create random constructor 
 			Random random = new Random();
 
 			// Pick 5 cards 
