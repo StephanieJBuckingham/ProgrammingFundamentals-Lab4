@@ -15,13 +15,13 @@ public class Card {
 		for (int i = 0; i < 1; i++) {
 			cards[i] += i;
 
-			// Create random constructor 
+			// Create random constructor
 			Random random = new Random();
 
-			// Pick 5 cards 
+			// Pick 5 cards
 			for (int y = 1; y <= 5; y++) {
 
-				// Select random suit and rank 
+				// Select random suit and rank
 				String suit = suits[random.nextInt(suits.length)];
 				String rank = ranks[random.nextInt(ranks.length)];
 
