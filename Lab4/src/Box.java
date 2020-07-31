@@ -13,8 +13,6 @@ public class Box {
 		box.size = 5;
 
 		// Call printBox methods on our box object
-		box.printBox();
-		System.out.println();
 		box.printBox('c');
 
 	}
@@ -26,7 +24,6 @@ public class Box {
 		for (int i = 0; i < size; i++) {
 			{
 				for (int j = 0; j < size; j++) {
-
 					System.out.print('*');
 				}
 				System.out.print("\n");
@@ -42,7 +39,6 @@ public class Box {
 		for (int i = 0; i < size; i++) {
 			{
 				for (int j = 0; j < size; j++) {
-
 					System.out.print('c');
 				}
 				System.out.print("\n");
